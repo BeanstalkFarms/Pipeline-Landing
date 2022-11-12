@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full space-y-4">
-          <Button href="https://etherscan.io/address/">
+          <Button href="/pipeline.pdf">
             Whitepaper 
           </Button>
           <Button href="https://etherscan.io/address/0xc5a5C42992dECbae36851359345FE25997F5C42d">
