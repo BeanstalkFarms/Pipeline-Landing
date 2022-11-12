@@ -48,14 +48,14 @@ export default function Home() {
         <div className="space-y-6 md:space-y-12">
           <Image
             src="/pipeline-white.svg"
-            className="md:w-36 md:h-36 h-16 w-16 mx-auto animate-spin-slow"
+            className="md:w-24 md:h-24 h-16 w-16 mx-auto animate-spin-slow"
             width={150}
             height={150}
             alt=""
           />
-          <div className="space-y-2">
-            <h1 className="text-center text-3xl font-bold">EVM Pipeline</h1>
-            <p className="text-center text-lg md:block hidden">Perform an arbitrary series of actions in the EVM in a single transaction.</p>
+          <div className="space-y-2 text-center">
+            <h1 className="text-3xl font-bold">Pipeline</h1>
+            <p className="text-lg md:block hidden">Perform an arbitrary series of actions in the EVM in a single transaction.</p>
           </div>
         </div>
         <div className="w-full space-y-4">
@@ -72,6 +72,16 @@ export default function Home() {
             Beanstalk
           </Button>
         </div>
+        <blockquote className="text-left space-y-4">
+          <div className="text-left text-2xl">
+            <em>“Leave nothing for to-morrow which can be done to-day.”</em><br/>
+          </div>
+          <div className="text-sm">
+            <p className="text-neutral-400">
+              — The Collected Works of Abraham Lincoln edited by Roy P. Basler, Volume II, “Notes for a
+Law Lecture” (July 1, 1850?), p. 81</p>
+          </div>
+        </blockquote>
       </div>
     </div>
   )
