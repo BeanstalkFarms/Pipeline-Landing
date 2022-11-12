@@ -32,6 +32,8 @@ export default function Home() {
           property="og:image"
           content="https://evmpipeline.netlify.app/meta.png"
         />
+        <meta name="twitter:image" content="https://evmpipeline.netlify.app/meta.png" />
+        <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <div className="flex flex-col items-center px-4 py-8 md:py-16 space-y-12 max-w-2xl mx-auto min-h-screen justify-center">
         <div className="space-y-6 md:space-y-12">
