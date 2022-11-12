@@ -24,6 +24,14 @@ export default function Home() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
+        <meta
+          property="og:description"
+          content="Perform an arbitrary series of actions in the EVM in a single transaction."
+        />
+        <meta
+          property="og:image"
+          content="https://evmpipeline.netlify.app/meta.png"
+        />
       </Head>
       <div className="flex flex-col items-center px-4 py-8 md:py-16 space-y-12 max-w-2xl mx-auto min-h-screen justify-center">
         <div className="space-y-6 md:space-y-12">
