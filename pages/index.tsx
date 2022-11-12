@@ -10,12 +10,16 @@ const Button : React.FC<React.PropsWithChildren<{ href: string }>> = ({ href, ch
   </a>
 )
 
+const TITLE = "EVM Pipeline";
+const DESC  = "Perform an arbitrary series of actions in the EVM in a single transaction.";
+const IMAGE = "https://evmpipeline.netlify.app/meta.png";
+
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>EVM Pipeline</title>
-        <meta name="description" content="Perform an arbitrary series of actions in the EVM in a single transaction." />
+        <title>{TITLE}</title>
+        <meta name="description" content={DESC} />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -23,17 +27,22 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff"></meta>
+        <meta name="theme-color" content="#ffffff" />
+        <meta
+          property="og:title"
+          content={TITLE}
+        />
         <meta
           property="og:description"
-          content="Perform an arbitrary series of actions in the EVM in a single transaction."
+          content={DESC}
         />
         <meta
           property="og:image"
-          content="https://evmpipeline.netlify.app/meta.png"
+          content={IMAGE}
         />
-        <meta name="twitter:image" content="https://evmpipeline.netlify.app/meta.png" />
-        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:image" content={IMAGE} />
+        <meta name="twitter:description" content={DESC} />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <div className="flex flex-col items-center px-4 py-8 md:py-16 space-y-12 max-w-2xl mx-auto min-h-screen justify-center">
         <div className="space-y-6 md:space-y-12">
