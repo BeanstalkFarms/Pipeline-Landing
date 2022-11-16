@@ -12,7 +12,7 @@ const Button : React.FC<React.PropsWithChildren<{ href: string }>> = ({ href, ch
 
 const TITLE = "Pipeline";
 const DESC  = "Perform an arbitrary series of actions in the EVM in a single transaction.";
-const IMAGE = "https://evmpipeline.org/meta.png";
+const IMAGE = "https://evmpipeline.netlify.app/meta.png";
 
 export default function Home() {
   return (
