@@ -10,9 +10,9 @@ const Button : React.FC<React.PropsWithChildren<{ href: string }>> = ({ href, ch
   </a>
 )
 
-const TITLE = "EVM Pipeline";
+const TITLE = "Pipeline";
 const DESC  = "Perform an arbitrary series of actions in the EVM in a single transaction.";
-const IMAGE = "https://evmpipeline.netlify.app/meta.png";
+const IMAGE = "https://evmpipeline.org/meta.png";
 
 export default function Home() {
   return (
@@ -62,11 +62,14 @@ export default function Home() {
           <Button href="/pipeline.pdf">
             Whitepaper 
           </Button>
-          <Button href="https://etherscan.io/address/0xc5a5C42992dECbae36851359345FE25997F5C42d">
-            Pipeline &middot; <code className="text-sm">0xc5a5C42992dECbae36851359345FE25997F5C42d</code>
+          <Button href="/pipeline-audit-halborn.pdf">
+            Audit &middot; Halborn 
           </Button>
-          <Button href="https://etherscan.io/address/0xeC827421505972a2AE9C320302d3573B42363C26">
-            Depot &middot; <code className="text-sm">0xeC827421505972a2AE9C320302d3573B42363C26</code>
+          <Button href="https://etherscan.io/address/0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa">
+            Pipeline &middot; <code className="text-sm">0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa</code>
+          </Button>
+          <Button href="https://etherscan.io/address/0xDEb0f000082fD56C10f449d4f8497682494da84D">
+            Depot &middot; <code className="text-sm">0xDEb0f000082fD56C10f449d4f8497682494da84D</code>
           </Button>
           <Button href="https://bean.money">
             Beanstalk
