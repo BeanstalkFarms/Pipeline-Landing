@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const Button : React.FC<React.PropsWithChildren<{ href: string }>> = ({ href, children }) => (
-  <a href={href} target="_blank" className="block" rel="noreferrer">
+  <a href={href} target={href.startsWith('/') ? undefined : "_blank"} className="block w-full flex-1" rel="noreferrer">
     <button className="block w-full px-6 py-4 border border-white hover:bg-neutral-50 hover:bg-opacity-20 rounded-sm overflow-ellipsis whitespace-nowrap overflow-hidden">
       {children}
     </button>
@@ -59,11 +59,16 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full space-y-4">
-          <Button href="/pipeline.pdf">
-            Whitepaper 
-          </Button>
+          <div className="flex flex-row space-x-4">
+            <Button href="/pipeline.pdf">
+              Whitepaper 
+            </Button>
+            <Button href="https://github.com/BeanstalkFarms/Pipeline">
+              Code 
+            </Button>
+          </div>
           <Button href="/pipeline-audit-halborn.pdf">
-            Audit &middot; Halborn 
+            Halborn Audit
           </Button>
           <Button href="https://etherscan.io/address/0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa">
             Pipeline &middot; <code className="text-sm">0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa</code>
