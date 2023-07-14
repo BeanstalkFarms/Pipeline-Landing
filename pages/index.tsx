@@ -70,11 +70,11 @@ export default function Home() {
           <Button href="/pipeline-audit-halborn.pdf">
             Halborn Audit
           </Button>
-          <Button href="https://etherscan.io/address/0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa">
-            Pipeline &middot; <code className="text-sm">0xb1bE0000bFdcDDc92A8290202830C4Ef689dCeaa</code>
+          <Button href="https://etherscan.io/address/0xb1bE0000C6B3C62749b5F0c92480146452D15423">
+            Pipeline &middot; <code className="text-sm">0xb1bE0000C6B3C62749b5F0c92480146452D15423</code>
           </Button>
-          <Button href="https://etherscan.io/address/0xDEb0f000082fD56C10f449d4f8497682494da84D">
-            Depot &middot; <code className="text-sm">0xDEb0f000082fD56C10f449d4f8497682494da84D</code>
+          <Button href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">
+            Depot &middot; <code className="text-sm">0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2</code>
           </Button>
           <Button href="https://bean.money">
             Beanstalk
