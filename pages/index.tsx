@@ -68,7 +68,7 @@ export default function Home() {
             </Button>
           </div>
           <Button href="/pipeline-audit-halborn.pdf">
-            Halborn Audit
+            Halborn Audit Report
           </Button>
           <Button href="https://etherscan.io/address/0xb1bE0000C6B3C62749b5F0c92480146452D15423">
             Pipeline &middot; <code className="text-sm">0xb1bE0000C6B3C62749b5F0c92480146452D15423</code>
@@ -76,9 +76,14 @@ export default function Home() {
           <Button href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">
             Depot &middot; <code className="text-sm">0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2</code>
           </Button>
-          <Button href="https://bean.money">
-            Beanstalk
-          </Button>
+          <div className="flex flex-row space-x-4">
+            <Button href="https://bean.money">
+              Beanstalk
+            </Button>
+            <Button href="https://basin.exchange">
+              Basin 
+            </Button>
+          </div>
         </div>
         <blockquote className="text-left space-y-4">
           <div className="text-left text-2xl">
