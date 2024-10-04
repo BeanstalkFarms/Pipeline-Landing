@@ -70,12 +70,22 @@ export default function Home() {
           <Button href="/pipeline-audit-halborn.pdf">
             Halborn Audit Report
           </Button>
-          <Button href="https://etherscan.io/address/0xb1bE0000C6B3C62749b5F0c92480146452D15423">
-            Pipeline &middot; <code className="text-sm">0xb1bE0000C6B3C62749b5F0c92480146452D15423</code>
-          </Button>
-          <Button href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">
-            Depot &middot; <code className="text-sm">0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2</code>
-          </Button>
+          <div className="flex flex-row space-x-4">
+            <Button href="https://arbiscan.io/address/0xb1bE000644bD25996b0d9C2F7a6D6BA3954c91B0">
+            Pipeline on Arbitrum 
+            </Button>
+            <Button href="https://etherscan.io/address/0xb1bE0000C6B3C62749b5F0c92480146452D15423">
+            Pipeline on Ethereum 
+            </Button>
+          </div>
+          <div className="flex flex-row space-x-4">
+            <Button href="https://arbiscan.io/address/0xDEb0f0dEEc1A29ab97ABf65E537452D1B00A619c">
+            Depot on Arbitrum 
+            </Button>
+            <Button href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">
+            Depot on Ethereum
+            </Button>
+          </div>
           <div className="flex flex-row space-x-4">
             <Button href="https://bean.money">
               Beanstalk
