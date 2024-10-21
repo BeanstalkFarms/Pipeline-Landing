@@ -79,7 +79,7 @@ export default function Home() {
             </Button>
           </div>
           <div className="flex flex-row space-x-4">
-            <Button href="https://arbiscan.io/address/0xDEb0f0dEEc1A29ab97ABf65E537452D1B00A619c">
+            <Button href="https://arbiscan.io/address/0xdeb0f082ed3b0efe9257aea9f2e6e974aa4120c3">
             Depot on Arbitrum 
             </Button>
             <Button href="https://etherscan.io/address/0xDEb0f00071497a5cc9b4A6B96068277e57A82Ae2">
