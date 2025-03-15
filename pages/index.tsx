@@ -87,6 +87,14 @@ export default function Home() {
             </Button>
           </div>
           <div className="flex flex-row space-x-4">
+            <Button href="https://basescan.org/address/0xb1bE0001f5a373b69b1E132b420e6D9687155e80">
+            Pipeline on Base
+            </Button>
+            <Button href="https://basescan.org/address/0xDEb0f04e5DC8875bf1Dc6087fF436Ef9873b8933">
+            Depot on Base
+            </Button>
+          </div>
+          <div className="flex flex-row space-x-4">
             <Button href="https://bean.money">
               Beanstalk
             </Button>
